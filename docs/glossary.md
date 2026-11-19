@@ -14,7 +14,7 @@ O DIO Agent é um agente de IA voltado para ajudar você a aprender.
 
 Um harness é o programa que dá "vida" a um agente. Ele é o ambiente onde o agente roda, conversa com você e consegue ler os arquivos do projeto. Exemplos: Google Antigravity, Claude Code e Hermes.
 
-*Analogia:* o agente é o professor e o harness é a sala de aula. O mesmo professor pode dar aula em salas diferentes, e é por isso que o DIO Agent funciona em qualquer harness.
+*Analogia:* o agente é o mentor e o harness é a sala onde vocês se encontram. O mesmo mentor pode atender em salas diferentes, e é por isso que o DIO Agent funciona em vários harnesses.
 
 Você escolhe um harness no Passo 1 do README.
 
@@ -24,7 +24,7 @@ Uma skill é uma habilidade específica do agente, descrita em um guia passo a p
 
 *Analogia:* são as receitas de um cozinheiro. Cada receita é uma skill para preparar um prato específico.
 
-O DIO Agent tem três skills: plano de estudos, destravar desafio e explicar conceito.
+As skills do DIO Agent estão listadas no README, na seção "As skills do agente".
 
 ## Repositório
 
@@ -52,8 +52,14 @@ Contexto é tudo o que o agente "sabe" durante a conversa: as instruções dele,
 
 *Analogia:* é a "identidade e o manual de conduta" do agente, em um formato que todo harness entende.
 
+## MCP
+
+MCP vem de "Model Context Protocol". É um padrão aberto para conectar o agente a ferramentas e fontes de dados externas, como uma busca na web, sem que ele precise escrever código para isso.
+
+*Analogia:* é como uma tomada padrão. Qualquer aparelho com o plugue certo funciona em qualquer tomada, e qualquer ferramenta com MCP funciona em qualquer harness compatível.
+
 ## LLM (Modelo de Linguagem)
 
 LLM vem de "Large Language Model", ou Modelo de Linguagem de Grande Escala. É a tecnologia de IA que entende e gera texto, e que está por trás do agente.
 
-*Analogia:* é o "cérebro" que processa linguagem. O harness é o corpo, o LLM é o cérebro, e o AGENTS.md diz a esse cérebro qual papel exercer.
+*Analogia:* é o "cérebro" do mentor, que entende e gera linguagem. O harness é a sala onde vocês se encontram, e o AGENTS.md diz a esse cérebro qual papel exercer.
